@@ -370,7 +370,7 @@ const Navbar: React.FC = () => {
                       onClick={toggleCart}
                       className="py-2.5 px-4 border border-[#9F2420] text-[#9F2420] rounded-lg hover:bg-[#9F2420] hover:text-white transition-colors font-medium text-sm"
                     >
-                      CONTINUE SHOPPING
+                      CONTINUE TO SHOP
                     </button>
                     <button className="py-2.5 px-4 bg-[#9F2420] text-white rounded-lg hover:bg-[#7a1d1a] transition-colors font-medium text-sm shadow-md">
                       PROCEED TO CHECKOUT
