@@ -112,7 +112,11 @@ const BestSellers: React.FC = () => {
   };
 
   return (
-    <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
+    <section className="relative py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
+      {/* Background decorative elements */}
+        <div className="absolute top-0 -right-40 w-80 h-80 bg-[#ad2617] rounded-full opacity-20 blur-3xl"></div>
+        <div className="absolute bottom-0 left-0 w-80 h-80 bg-[#ae3225] rounded-full opacity-20 blur-3xl"></div>
+        
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <motion.div 
