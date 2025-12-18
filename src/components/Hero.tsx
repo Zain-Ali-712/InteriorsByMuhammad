@@ -6,9 +6,9 @@ const Hero: React.FC = () => {
   const [currentImage, setCurrentImage] = useState(0);
   
   const images = [
-    { id: 0, src: "/hero1.jpg", alt: "Living Room" },
-    { id: 1, src: "/hero2.png", alt: "Bedroom" },
-    { id: 2, src: "/hero3.jpg", alt: "Dining Area" }
+    { id: 0, src: "/7.png", alt: "Living Room" },
+    { id: 1, src: "/6.png", alt: "Bedroom" },
+    { id: 2, src: "/7.png", alt: "Dining Area" }
   ];
 
   const handleImageClick = (index: number) => {
@@ -49,7 +49,7 @@ const Hero: React.FC = () => {
               className="text-2xl sm:text-3xl md:text-4xl font-bold uppercase text-[#2D2D2D] mb-3 lg:mb-4"
             >
               EFFORTLESS
-              <span className="text-[var(--accent)] font-light"> COMFORT.</span>
+              <span className="text-[var(--accent)] font-light"> Refurnishing.</span>
             </motion.h2>
             
             <motion.h3
@@ -69,8 +69,7 @@ const Hero: React.FC = () => {
               className="mb-6 lg:mb-8 max-w-md mx-auto lg:mx-0"
             >
               <p className="text-[#5A5A5A] font-light leading-relaxed text-base sm:text-lg tracking-wide">
-                Contemporary clouds contain for your lifestyle, design and learning affordiest elegance into your everyday spaces.
-              </p>
+Elevate your home with premium refurbished furniture. We bridge the gap between expensive new pieces and low-quality secondhand options with guaranteed, stylish, and eco-friendly furniture.              </p>
             </motion.div>
             
             <motion.div
@@ -105,7 +104,7 @@ const Hero: React.FC = () => {
                 whileTap={{ scale: 0.98 }}
                 className="border border-[#671212]/30 text-[#671212] px-6 py-3 sm:px-8 sm:py-3 lg:px-10 lg:py-4 rounded-xl font-medium text-sm sm:text-md tracking-wider uppercase transition-all duration-300 bg-white/80 backdrop-blur-sm hover:bg-white w-full sm:w-auto"
               >
-                Use Code: BEC30
+                USE CODE: SECONDLIFE
               </motion.button>
             </motion.div>
           </div>

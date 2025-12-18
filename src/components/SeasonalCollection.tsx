@@ -9,19 +9,19 @@ const SeasonalCollection: React.FC = () => {
   const galleryImages = [
     {
       id: 1,
-      src: "/winter1.webp",
+      src: "/hero.png",
       alt: "Winter Fashion 1",
       category: "Cozy Wear"
     },
     {
       id: 2,
-      src: "/winter2.jpg",
+      src: "/2.png",
       alt: "Winter Fashion 2",
       category: "Accessories"
     },
     {
       id: 3,
-      src: "/winter3.webp",
+      src: "/3.png",
       alt: "Winter Fashion 3",
       category: "Pillows"
     }
@@ -43,11 +43,11 @@ const SeasonalCollection: React.FC = () => {
           <div className="inline-flex items-center justify-center bg-[#fffdfc] px-4 py-2 rounded-full mb-6">
             <span className="w-2 h-2 bg-[#9F2420] rounded-full mr-2"></span>
             <span className="text-[#9F2420] font-medium uppercase tracking-wide text-sm">
-              SEASON SPECIAL
+              SPECIAL OFFERS
             </span>
           </div>
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-light text-[#2D2D2D] mb-4">
-            Winter Collection
+            MASTERFUL RESTORATION
             <span className="block text-[#9F2420] font-normal mt-2">Grab Them Now!</span>
           </h2>
         </motion.div>
@@ -90,7 +90,7 @@ const SeasonalCollection: React.FC = () => {
                 border-2 ${hoveredButton === 1 ? 'bg-white text-[#9F2420]' : 'border-white text-white'} 
                 px-6 py-2 rounded-full font-medium transition-colors duration-300`}
             >
-              View Collection
+              View More
             </motion.button>
             
             <div className="absolute bottom-4 left-4 bg-white/90 px-3 py-1.5 rounded-lg">
@@ -140,7 +140,7 @@ const SeasonalCollection: React.FC = () => {
                       border-2 ${hoveredButton === image.id ? 'bg-white text-[#9F2420]' : 'border-white text-white'} 
                       px-4 py-1.5 rounded-full text-sm font-medium transition-colors duration-300`}
                   >
-                    View Collection
+                    View More
                   </motion.button>
                   
                   <div className="absolute bottom-3 left-3 bg-white/90 px-2 py-1 rounded-lg">
@@ -166,13 +166,12 @@ const SeasonalCollection: React.FC = () => {
                 className="mb-6"
               >
                 <h3 className="text-2xl sm:text-3xl font-semibold text-[#2D2D2D] mb-4">
-                  Exclusive Winter Edition
+                  MASTERFULL RESTORATION
                 </h3>
                 <p className="text-[#555] leading-relaxed mb-6">
-                  Stay warm and stylish with our premium winter collection. Designed for comfort and durability in the coldest months.
-                </p>
+                  From forgotten relics to center-stage masterpieces. We breathe new life into vintage frames, combining traditional techniques with modern durability to create furniture that tells a story.                </p>
                 <div className="space-y-3 mb-6">
-                  {['Premium Quality Materials', 'Limited Edition Designs', 'Special Winter Discounts', 'Free Shipping Available'].map((feature, index) => (
+                  {['Hand-Picked Vintage Frames', 'Master Artisan Craftsmanship', 'Sustainable Material Sourcing', '2-Year Restoration Warranty'].map((feature, index) => (
                     <motion.div
                       key={index}
                       initial={{ opacity: 0, x: -20 }}
@@ -213,7 +212,7 @@ const SeasonalCollection: React.FC = () => {
                   whileTap={{ scale: 0.95 }}
                   className="bg-[#9F2420] text-white px-8 py-4 rounded-xl font-medium text-lg tracking-wide uppercase transition-all duration-300 shadow-lg w-full sm:w-auto"
                 >
-                  SHOP COLLECTION
+                  SHOP NOW
                 </motion.button>
               </motion.div>
             </motion.div>

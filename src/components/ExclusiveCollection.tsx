@@ -8,22 +8,22 @@ const ExclusiveCollection: React.FC = () => {
   const categories = [
     {
       id: 1,
-      title: "Clothes",
-      image: "/baby1.jpg",
+      title: "Before",
+      image: "/hero.png",
       discount: "20% OFF",
       buttonText: "SHOP NOW →"
     },
     {
       id: 2,
-      title: "Toys",
-      image: "/baby2.jpg",
+      title: "In Process",
+      image: "/2.png",
       discount: "15% OFF",
       buttonText: "SHOP NOW →"
     },
     {
       id: 3,
-      title: "Nutrition",
-      image: "/baby3.jpg",
+      title: "Refurbished",
+      image: "/3.png",
       discount: "25% OFF",
       buttonText: "SHOP NOW →"
     }
@@ -51,12 +51,11 @@ const ExclusiveCollection: React.FC = () => {
           className="text-center mb-12"
         >
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-light uppercase text-[#2D2D2D] mb-4">
-            BEST CHOICE FOR YOUR
-            <span className="block text-[#8B0000] font-normal mt-2">LITTLE ONES</span>
+            SMART CHOICE FOR YOUR
+            <span className="block text-[#8B0000] font-normal mt-2">MODERN HOME</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto mt-4">
-            Discover our premium collections designed with love and care for your children's comfort and development
-          </p>
+            Discover our curated collections of refurbished gems, restored with precision to bring premium comfort and style to your living spaces at a fraction of the cost.          </p>
         </motion.div>
 
         {/* Categories Grid - 3 Columns */}
@@ -102,7 +101,7 @@ const ExclusiveCollection: React.FC = () => {
                     transition={{ duration: 0.6, delay: 0.2 }}
                     className="absolute inset-0 flex items-center justify-center"
                   >
-                    <h3 className="text-4xl font-bold text-[#8B0000] drop-shadow-sm">
+                    <h3 className="text-4xl font-bold text-[#ffd1d1] drop-shadow-sm">
                       {category.title}
                     </h3>
                   </motion.div>

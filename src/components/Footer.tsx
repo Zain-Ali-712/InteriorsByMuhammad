@@ -51,16 +51,16 @@ const Footer: React.FC = () => {
             className="lg:col-span-1"
           >
             <motion.div variants={itemVariants} className="mb-6">
-              <div className="relative h-24 w-48 mb-6">
+              <div className="relative h-36 w-48 mb-6">
                 <Image 
-                  src="/logo.webp" 
+                  src="/logo 1.png" 
                   alt="Company Logo" 
                   fill
                   className="object-contain filter brightness-0 invert"
                 />
               </div>
               <p className="text-[#FBEAE8] mb-6 max-w-xs leading-relaxed">
-                Premium products for your little ones. Quality, comfort, and style for every stage of childhood.
+                Premium Quality Refurnishing for your old furniture. Quality, comfort, and style for every stage of childhood.
               </p>
             </motion.div>
             
@@ -137,11 +137,11 @@ const Footer: React.FC = () => {
             </motion.h3>
             <ul className="space-y-3">
               {[
-                "Clothing & Fashion",
-                "Toys",
-                "School Supplies",
-                "Birthday Party Supplies",
-                "Baby Diapering"
+                "Modern Design",
+                "Sofa Sets",
+                "Bed Refurnishing",
+                "Decor Supplies",
+                "Tables set"
               ].map((item, index) => (
                 <motion.li key={index} variants={itemVariants}>
                   <a 
@@ -177,7 +177,7 @@ const Footer: React.FC = () => {
                 </div>
                 <div>
                   <p className="font-medium text-[#FBEAE8]">Phone Number</p>
-                  <a href="tel:+923228050875" className="text-[#d1d1d1] hover:text-white transition-colors duration-300">+92 322 8050875</a>
+                  <a href="tel:+923104843483" className="text-[#d1d1d1] hover:text-white transition-colors duration-300">+92 310 4843483</a>
                 </div>
               </div>
               
@@ -189,7 +189,7 @@ const Footer: React.FC = () => {
                 </div>
                 <div>
                   <p className="font-medium text-[#FBEAE8]">Email Address</p>
-                  <a href="mailto:interiorsbymuhammad@gmail.com" className="text-[#d1d1d1] hover:text-white transition-colors duration-300 break-all">interiorsbymuhammad@gmail.com</a>
+                  <a href="mailto:secondlife@gmail.com" className="text-[#d1d1d1] hover:text-white transition-colors duration-300 break-all">secondlife@gmail.com</a>
                 </div>
               </div>
             </motion.div>
@@ -225,7 +225,7 @@ const Footer: React.FC = () => {
           className="border-t border-gray-700 pt-8 text-center relative z-10"
         >
           <p className="text-[#d1d1d1]">
-            © {currentYear} InteriorsByMuhammad. All rights reserved.
+            © {currentYear} SecondLifeOfficial. All rights reserved.
           </p>
         </motion.div>
       </div>

@@ -100,14 +100,14 @@ const Navbar: React.FC = () => {
             <div className="flex items-center z-60">
               <div className="flex flex-col">
                 <Link href="/">
-                  <img src="/logo.webp" alt="Logo" className="h-10 sm:h-14 object-contain cursor-pointer" />
+                  <img src="/logo 1.png" alt="Logo" className="h-10 sm:h-24 object-contain cursor-pointer" />
                 </Link>
               </div>
             </div>
 
             {/* Menu Items - Centered (Desktop only) */}
             <div className="hidden lg:flex absolute left-1/2 transform -translate-x-1/2 space-x-12">
-              {['Home', 'Shop', 'Molty Foam', 'Celeste', 'Molty Ortho'].map((item) => (
+              {['Home', 'Shop', 'Refurnish', 'Modern', 'Design and Decor'].map((item) => (
                 <Link
                   key={item}
                   href={item === 'Home' ? '/' : `/${generateSlug(item)}`}
