@@ -100,7 +100,7 @@ const Navbar: React.FC = () => {
             <div className="flex items-center z-60">
               <div className="flex flex-col">
                 <Link href="/">
-                  <img src="/logo 1.png" alt="Logo" className="h-10 sm:h-24 object-contain cursor-pointer" />
+                  <img src="/logo1.png" alt="Logo" className="h-10 sm:h-24 object-contain cursor-pointer" />
                 </Link>
               </div>
             </div>

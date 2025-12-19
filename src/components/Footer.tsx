@@ -53,7 +53,7 @@ const Footer: React.FC = () => {
             <motion.div variants={itemVariants} className="mb-6">
               <div className="relative h-36 w-48 mb-6">
                 <Image 
-                  src="/logo 1.png" 
+                  src="/logo1.png" 
                   alt="Company Logo" 
                   fill
                   className="object-contain filter brightness-0 invert"
