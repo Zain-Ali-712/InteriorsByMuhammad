@@ -41,7 +41,7 @@ const Footer: React.FC = () => {
         </div>
         
         {/* Main footer content */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12 mb-16 relative z-10">
+        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12 mb-16 relative z-10">
           {/* Brand column */}
           <motion.div
             initial="hidden"
